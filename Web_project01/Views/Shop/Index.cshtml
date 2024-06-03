@@ -1,0 +1,38 @@
+﻿@using Web_project01.Models;
+@model IEnumerable<ProductInfo>
+
+<section class="page2" id="Trending">
+    <div class="p2-text">
+        <h2>Our <span>Products</span></h2>
+
+    </div>
+    <div id="product">
+        @if(@Model != null){
+        @foreach (ProductInfo item in Model){
+        <div class="home__myCard">
+            <img src="@item.ImageUrl" alt="THis is a picture">
+            <div class="prod-text">
+                <h4>New</h4>
+            </div>
+            <div class="heart">
+                <i class='bx bx-heart'></i>
+            </div>
+            <div class="ratting">
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bx-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <div class="price">
+                <h4>@item.Name</h4>
+                <p>$@item.Price</p>
+            </div>
+        </div>
+        }
+        }
+        else{
+        <p>No data available</p>
+        }
+    </div>
+</section>

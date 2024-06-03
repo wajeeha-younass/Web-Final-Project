@@ -1,0 +1,18 @@
+﻿<div class="w-100 d-flex flex-column justify-content-center align-items-center">
+    <div style=" box-shadow:0 0 50px rgba(0,0,0,0.1)" class="p-5 w-50 form-container-addDressPage mt-5">
+        <h1 style="text-align:center">Delete Dress</h1>
+        <form method="post" action="/admin/deleteDresses" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="item-id">Add DressID:</label>
+                <input type="number"
+                       class="form-control"
+                       id="item-id"
+                       name="id"
+                       required />
+            </div>
+
+            <button style="display: block; width:max-content; margin:auto" type="submit" class="w-25 btn btn-success mt-3">Delete </button>
+        </form>
+    </div>
+
+</div>

@@ -1,0 +1,143 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+#page3 img {
+    height: auto;
+    width: 100%;
+}
+
+#scroll-text {
+    text-align: center;
+}
+
+.marq {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    /* background:linear-gradient(to left bottom,aqua,rgb(68, 124, 170)); */
+    background-color: rgb(102, 100, 91);
+    margin-bottom: 40px;
+}
+
+.scroller {
+    margin-left: 7%;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(10, 2, 2);
+    /* padding-bottom: px;  */
+}
+
+.scroller-in pre {
+    /* font-family: "Rubik Scribble", system-ui; */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.scroller span {
+    color: yellow;
+}
+
+.scroller-in span {
+    color: yellow;
+}
+
+#sale-pics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,auto));
+    margin-left: 7%;
+    margin-right: 3%;
+}
+
+.sale-in {
+    position: relative;
+    transition: all 0.40s;
+}
+
+    .sale-in img {
+        position: relative;
+        margin-top: 10%;
+        margin-left: 6%;
+        width: 80%;
+        height: 80%;
+        transition: all 0.42s;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .sale-in img:hover {
+            transform: scale(0.9);
+        }
+
+.sale-text1 h4 {
+    margin-left: 6%;
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    color: rgb(57, 66, 66);
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sale-text1 p {
+    margin-left: 6%;
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    color: rgb(5, 2, 2);
+    font-family: "Rubik Scribble", system-ui;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(57, 66, 66);
+    text-shadow: 1px 1px 1px black;
+}
+
+.sale-text2 h4 {
+    margin-left: 6%;
+    position: absolute;
+    top: 35%;
+    left: 4%;
+    color: rgb(57, 66, 66);
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sale-text2 p {
+    margin-left: 6%;
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    font-family: "Rubik Scribble", system-ui;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(57, 66, 66);
+    text-shadow: 1px 1px 1px black;
+}
+
+.sale-text1 a {
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    color: #a18f8f;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: rgb(0, 0, 0);
+    margin-left: 6%;
+    top: 53%;
+    left: 47%;
+    padding: 9px 9px;
+    transition: all ease 0.6s;
+    /* margin-top: 10px; */
+}
+
+    .sale-text1 a:hover {
+        background-color: white;
+        color: black;
+    }
+       

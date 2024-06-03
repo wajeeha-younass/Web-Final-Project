@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .admin-content {
+            width: 50%;
+            padding: 20px;
+            margin: 80px auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        h1 {
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav style="height:50px; display:flex; justify-content:space-between; width:100%; align-items:center" class="p-5 bg-warning">
+        <a href="/"
+           class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="~/images/sw.png"
+                 alt=""
+                 height="40"
+                 class="justify-content-center" />
+        </a>
+        <div style="display:flex; gap:10px">
+            <div>
+                <a href="/identity/account/logout" class="btn btn-danger">Logout</a>
+            </div>
+            <div>
+                <a href="/admin/addDress"
+                   class="btn btn-outline-success d-inline-flex align-items-center gap-2 fw-medium admin_projects__new_project_btn">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="#198754" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.2857 9.42857H14.5714V1.71429C14.5714 0.767679 13.8037 0 12.8571 0H11.1429C10.1962 0 9.42857 0.767679 9.42857 1.71429V9.42857H1.71429C0.767679 9.42857 0 10.1962 0 11.1429V12.8571C0 13.8037 0.767679 14.5714 1.71429 14.5714H9.42857V22.2857C9.42857 23.2323 10.1962 24 11.1429 24H12.8571C13.8037 24 14.5714 23.2323 14.5714 22.2857V14.5714H22.2857C23.2323 14.5714 24 13.8037 24 12.8571V11.1429C24 10.1962 23.2323 9.42857 22.2857 9.42857Z" />
+                    </svg>
+                    <span>New Project</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

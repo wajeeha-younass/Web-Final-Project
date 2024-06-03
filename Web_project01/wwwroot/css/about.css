@@ -1,0 +1,65 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+.ab-page1 {
+    height: 115vh;
+    background-color: #f4f4f4;
+}
+
+    .ab-page1 h2 {
+        margin-top: 4%;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+#ab-txt1 {
+    margin-top: 4%;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.about-img2 {
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+.ab-page2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+.about-img3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    flex: 1;
+    margin-top: 13%;
+    margin-left: 50px;
+}
+
+#pics {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 0;
+}
+
+    #pics img {
+        flex-shrink: 0;
+        height: 267px;
+        margin-right: 0;
+        transition: all ease 0.6s;
+        margin-top: 100px;
+    }
+
+        #pics img:hover {
+            transform: scale(1.1);
+        }
+
+
